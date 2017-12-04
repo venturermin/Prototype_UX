@@ -47,7 +47,6 @@
         app:layout_constraintLeft_toLeftOf="@+id/listBtn"
         app:layout_constraintTop_toTopOf="@+id/listBtn" />
 
-<<<<<<< HEAD
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
@@ -56,7 +55,7 @@
         android:text="ToggleButton"
         app:layout_constraintTop_toBottomOf="@+id/listBtn"
         tools:layout_editor_absoluteX="148dp" />
-=======
+
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
@@ -64,5 +63,18 @@
         android:text="RadioButton"
         tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="271dp" />
->>>>>>> 2f65bf6b154495aabb106f2ffff3962db86e943f
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="209dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="103dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/exitBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webBtn" />
+
 </android.support.constraint.ConstraintLayout>
