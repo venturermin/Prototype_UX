@@ -9,12 +9,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hi World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
@@ -22,5 +23,13 @@
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="293dp"
         tools:layout_editor_absoluteY="52dp" />
+=======
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="357dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="430dp" />
+>>>>>>> d1e685435255a464b30028f2071d949ff9c335a2
 
 </android.support.constraint.ConstraintLayout>
