@@ -4,11 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Prototype_UX.iml" filepath="$PROJECT_DIR$/Prototype_UX.iml" />
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Supergreat.iml" filepath="$PROJECT_DIR$/Supergreat.iml" />
 =======
       <module fileurl="file://$PROJECT_DIR$/Prototype_UX.iml" filepath="$PROJECT_DIR$/Prototype_UX.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
 >>>>>>> d1e685435255a464b30028f2071d949ff9c335a2
+>>>>>>> a91b2aa6c90bbf2bd20311c6f21dc1e82932cb43
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
