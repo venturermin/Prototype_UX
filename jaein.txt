@@ -1,2 +1,6 @@
+<<<<<<< HEAD
  jaein have a good time for traveling
 
+=======
+Ichanged it test
+>>>>>>> 7ba6bd443bfbd2906686cdf3d03879e4e1deddfb
