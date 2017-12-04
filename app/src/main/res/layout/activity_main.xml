@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -26,6 +27,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:layout_editor_absoluteX="148dp" />
 
+=======
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="52dp" />
+>>>>>>> f1a89c5e77b5009ae7d43561066f7738df3fbd03
 =======
     <SeekBar
         android:id="@+id/seekBar"
