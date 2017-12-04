@@ -46,4 +46,13 @@
         android:layout_marginBottom="145dp"
         app:layout_constraintLeft_toLeftOf="@+id/listBtn"
         app:layout_constraintTop_toTopOf="@+id/listBtn" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/listBtn"
+        tools:layout_editor_absoluteX="148dp" />
 </android.support.constraint.ConstraintLayout>
