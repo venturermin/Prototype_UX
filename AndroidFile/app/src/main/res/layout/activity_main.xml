@@ -47,6 +47,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/listBtn"
         app:layout_constraintTop_toTopOf="@+id/listBtn" />
 
+<<<<<<< HEAD
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
@@ -55,4 +56,13 @@
         android:text="ToggleButton"
         app:layout_constraintTop_toBottomOf="@+id/listBtn"
         tools:layout_editor_absoluteX="148dp" />
+=======
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="271dp" />
+>>>>>>> 2f65bf6b154495aabb106f2ffff3962db86e943f
 </android.support.constraint.ConstraintLayout>
