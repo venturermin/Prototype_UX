@@ -60,9 +60,19 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="sangbumgoh"
+=======
+        android:layout_marginBottom="221dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="37dp"
+        android:text="Jaein"
+        app:layout_constraintBottom_toTopOf="@+id/bt_speakout"
+        app:layout_constraintEnd_toEndOf="parent"
+>>>>>>> a6811e0c31861199300e3f556a360580eca15518
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
