@@ -63,17 +63,17 @@ public class SalesStatisticasActivity extends AppCompatActivity {
         }
 
         public void AddValuesToBarEntryLabels(){
-            BarEntryLabels.add("0-2");
-            BarEntryLabels.add("2-4");
-            BarEntryLabels.add("4-6");
-            BarEntryLabels.add("6-8");
-            BarEntryLabels.add("8-10");
-            BarEntryLabels.add("10-12");
-            BarEntryLabels.add("12-14");
-            BarEntryLabels.add("14-16");
-            BarEntryLabels.add("16-18");
-            BarEntryLabels.add("18-20");
-            BarEntryLabels.add("20-22");
-            BarEntryLabels.add("22-24");
+            BarEntryLabels.add("2");
+            BarEntryLabels.add("4");
+            BarEntryLabels.add("6");
+            BarEntryLabels.add("8");
+            BarEntryLabels.add("10");
+            BarEntryLabels.add("12");
+            BarEntryLabels.add("14");
+            BarEntryLabels.add("16");
+            BarEntryLabels.add("18");
+            BarEntryLabels.add("20");
+            BarEntryLabels.add("22");
+            BarEntryLabels.add("24");
         }
     }
