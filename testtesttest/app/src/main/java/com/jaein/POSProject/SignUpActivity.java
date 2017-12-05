@@ -24,6 +24,11 @@ public class SignUpActivity extends AppCompatActivity {
 
 //set the default according to value
 
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+
 
         Spinner yearSpinner = (Spinner)findViewById(R.id.year);
         ArrayAdapter yearAdapter = ArrayAdapter.createFromResource(this, R.array.date_year, R.layout.simple_spinner_item);

@@ -24,10 +24,15 @@
         <activity android:name=".PieChartDataActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SignInActivity" />
+<<<<<<< HEAD
         <activity
             android:name=".OrderActivity"
             android:label="@string/title_activity_order"
             android:theme="@style/AppTheme"></activity>
+=======
+        <activity android:name=".MenuSettingActivity" />
+        <activity android:name=".SalesStatusActivity"></activity>
+>>>>>>> 32f800fda0002805e96f5c9adccdd41359139e16
     </application>
 
 </manifest>
