@@ -6,52 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cbbed5-a70a-4cbb-9f61-486d23b3858d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/libs/mpandroidchartlibrary-2-2-4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/androidTest/java/com/jaein/testtesttest/ExampleInstrumentedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/java/com/jaein/testtesttest/CostSettingActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/java/com/jaein/testtesttest/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/java/com/jaein/testtesttest/SalesStatisticasActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/drawable/border.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/drawable/spinnerborder.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/layout/activity_cost_setting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/layout/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/layout/activity_sales_statistics.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/app/src/test/java/com/jaein/testtesttest/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testtesttest/settings.gradle" />
-    </list>
+    <list default="true" id="58cbbed5-a70a-4cbb-9f61-486d23b3858d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
