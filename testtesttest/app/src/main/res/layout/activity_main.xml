@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.jaein.testtesttest.MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="286dp"
+    android:layout_height="63dp"
+    android:layout_marginEnd="163dp"
+    android:layout_marginStart="163dp"
+    android:layout_marginTop="36dp"
+    android:background="@drawable/border"
+    android:gravity="center"
+    android:text="Pos"
+    android:textSize="36sp"
+    android:fontFamily="serif"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/button_Setting"
+    android:layout_width="149dp"
+    android:layout_height="137dp"
+    android:layout_marginEnd="36dp"
+    android:layout_marginTop="28dp"
+    android:text="설정"
+    android:fontFamily="serif"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button_Analysis" />
+
+<Button
+    android:id="@+id/button_Analysis"
+    android:layout_width="152dp"
+    android:layout_height="137dp"
+    android:layout_marginEnd="36dp"
+    android:layout_marginTop="60dp"
+    android:text="분석"
+    android:textSize="24sp"
+    android:fontFamily="serif"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<Button
+    android:id="@+id/button_Start"
+    android:layout_width="152dp"
+    android:layout_height="137dp"
+    android:layout_marginStart="36dp"
+    android:layout_marginTop="60dp"
+    android:text="영업 시작"
+    android:textSize="24sp"
+    android:fontFamily="serif"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<Button
+    android:id="@+id/button_Prepare"
+    android:layout_width="152dp"
+    android:layout_height="137dp"
+    android:layout_marginStart="36dp"
+    android:layout_marginTop="28dp"
+    android:text="준비"
+    android:fontFamily="serif"
+    android:textSize="24sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button_Start" />
+</android.support.constraint.ConstraintLayout>
