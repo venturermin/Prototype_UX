@@ -1,11 +1,9 @@
-package com.jaein.testtesttest;
+package com.jaein.POSProject;
 
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
@@ -22,8 +20,8 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 
-public class PieChartDataActivity extends AppCompatActivity {
-    static final String[] LIST_MENU = {"Steak x 8", "Juice x 1", "Cola x 2"};
+public class PieChartActivity extends AppCompatActivity {
+    static final String[] LIST_MENU = {"달성금"};
 
 
 
@@ -32,12 +30,12 @@ public class PieChartDataActivity extends AppCompatActivity {
 
 
     PieChart mChart;
-    private int[] yValues = {8,1,1};
-    private String[] xValues = {"Steak","Juice","Cola"};
+    private int[] yValues = {30,70};
+    private String[] xValues = {"라면",""};
 
     // colors for different sections in pieChart
     public static final int[] MY_COLORS = {
-             Color.rgb(240,133,44),Color.rgb(27,204,133),Color.rgb(245,231,190)};
+            Color.rgb(136,124,217),Color.rgb(255,255,255)};
 
     @Override
 
@@ -45,13 +43,13 @@ public class PieChartDataActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_salesstatus);
+        setContentView(R.layout.activity_piechart);
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_activated_1 ,LIST_MENU) ;
+     /*   ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_activated_1 ,LIST_MENU) ;
 
         ListView listview = (ListView) findViewById(R.id.graph_listview) ;
         listview.setAdapter(adapter);
-
+*/
 
 // creating data values
 
@@ -60,13 +58,11 @@ public class PieChartDataActivity extends AppCompatActivity {
 
         //   mChart.setUsePercentValues(true);
         mChart.setDescription("");
-        mChart.setHoleRadius(50);
+        mChart.setHoleRadius(93);
 
-        mChart.setRotationEnabled(false);
-       // mChart.setCenterText("50%");
-       // mChart.setCenterTextSize(20);
-
-
+        mChart.setRotationEnabled(true);
+        mChart.setCenterText("50%");
+        mChart.setCenterTextSize(20);
 
         mChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
 
@@ -76,7 +72,7 @@ public class PieChartDataActivity extends AppCompatActivity {
                 if (e == null)
                     return;
 
-                Toast.makeText(PieChartDataActivity.this,
+                Toast.makeText(PieChartActivity.this,
                         xValues[e.getXIndex()] + " is " + e.getVal() + "", Toast.LENGTH_SHORT).show();
             }
 
@@ -124,13 +120,13 @@ public class PieChartDataActivity extends AppCompatActivity {
         //   data.setValueFormatter(new PercentFormatter());
 
         data.setValueFormatter(new MyValueFormatter());
-        data.setValueTextSize(11f);
+        data.setValueTextSize(0);
         data.setValueTextColor(Color.WHITE);
 
         mChart.setData(data);
 
         // undo all highlights
-       // mChart.highlightValues(null);
+        // mChart.highlightValues(null);
 
         // refresh/update pie chart
         mChart.invalidate();

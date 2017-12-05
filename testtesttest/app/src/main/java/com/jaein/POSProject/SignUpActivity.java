@@ -1,4 +1,4 @@
-package com.jaein.testtesttest;
+package com.jaein.POSProject;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +23,11 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
 
 //set the default according to value
+
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
 
 
         Spinner yearSpinner = (Spinner)findViewById(R.id.year);
