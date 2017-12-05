@@ -1,4 +1,4 @@
-package com.jaein.testtesttest;
+package com.jaein.POSProject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

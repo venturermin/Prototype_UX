@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jaein.testtesttest">
+    package="com.jaein.POSProject">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -11,27 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".CostSettingActivity">
-
-        </activity>
-        <activity android:name=".SalesStatisticasActivity">
+        <activity android:name="com.jaein.POSProject.MainActivity"></activity>
+        <activity android:name="com.jaein.POSProject.CostSettingActivity"></activity>
+        <activity android:name="com.jaein.POSProject.SalesStatisticasActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-        <activity android:name=".PieChartActivity"></activity>
-        <activity android:name=".PieChartDataActivity"></activity>
-        <activity android:name=".SignUpActivity"></activity>
-
-
-
+        <activity android:name="com.jaein.POSProject.PieChartActivity" />
+        <activity android:name="com.jaein.POSProject.PieChartDataActivity" />
+        <activity android:name="com.jaein.POSProject.SignUpActivity" />
+        <activity android:name="com.jaein.POSProject.SignInActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.jaein.testtesttest;
+package com.jaein.POSProject;
 
 import android.graphics.Color;
 import android.os.Bundle;

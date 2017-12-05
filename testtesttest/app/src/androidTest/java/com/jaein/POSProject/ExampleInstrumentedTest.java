@@ -1,4 +1,4 @@
-package com.jaein.testtesttest;
+package com.jaein.POSProject;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
