@@ -20,7 +20,7 @@ public class SalesStatisticasActivity extends AppCompatActivity {
         BarDataSet Bardataset ;
         BarData BARDATA ;
         XAxis xAxis;
-        int[] color = {Color.rgb(117,224,233)};
+        int[] color = {Color.rgb(80,165,181)};
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
