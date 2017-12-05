@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jaein.testtesttest"
+        applicationId "com.jaein.POSProject"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -26,8 +26,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation files('libs/mpandroidchartlibrary-2-2-4.jar')
-    implementation 'com.google.firebase:firebase-core:11.0.4'
-    compile 'com.google.firebase:firebase-auth:11.2.0'
-    compile 'com.google.android.gms:play-services-auth:11.2.0'
+
+    implementation 'com.google.firebase:firebase-core:11.6.0'
+    compile 'com.google.firebase:firebase-auth:11.6.0'
+    compile 'com.google.android.gms:play-services-auth:11.6.0'
 }
 apply plugin: 'com.google.gms.google-services'
