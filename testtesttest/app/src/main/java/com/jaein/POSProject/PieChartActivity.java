@@ -22,13 +22,6 @@ import java.util.ArrayList;
 
 public class PieChartActivity extends AppCompatActivity {
     static final String[] LIST_MENU = {"달성금"};
-
-
-
-
-
-
-
     PieChart mChart;
     private int[] yValues = {30,70};
     private String[] xValues = {"라면",""};
