@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">102136104051-gdfaposljhmqpiivujl8p2o85fu83479.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://posproject-d32a6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">102136104051</string>
+    <string name="google_api_key" translatable="false">AIzaSyCyuGqMmifFvFy9V5ik-M2kb52Tmix3ZHo</string>
+    <string name="google_app_id" translatable="false">1:102136104051:android:6a75f4d304fd9600</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCyuGqMmifFvFy9V5ik-M2kb52Tmix3ZHo</string>
+    <string name="google_storage_bucket" translatable="false">posproject-d32a6.appspot.com</string>
+    <string name="project_id" translatable="false">posproject-d32a6</string>
+</resources>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/bum/Prototype_UX/testtesttest/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/bum/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7b817f3e737d0879c8060aeae0614b51/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

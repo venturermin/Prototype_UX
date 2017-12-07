@@ -1,0 +1,4 @@
+#Tue Dec 05 16:17:22 KST 2017
+base.0=/home/bum/Prototype_UX/testtesttest/app/build/intermediates/transforms/dexMerger/debug/5
+renamed.0=classes.dex
+file.0=/home/bum/Prototype_UX/testtesttest/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex
